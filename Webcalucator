@@ -6,7 +6,7 @@ RUN apt update -y && \
     apt install -y git maven openjdk-17-jdk
 
 # Clone the repository and build the application
-RUN git clone https://github.com/srikanthv247/JavaWebCalculator.git
+RUN git clone https://github.com/santhosh1100/JavaWebCalculator.git
 WORKDIR /app/JavaWebCalculator
 RUN mvn package
 
